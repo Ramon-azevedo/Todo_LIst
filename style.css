@@ -1,0 +1,179 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/2023.08.26-00.42.15.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: white;
+    min-height: 500px;
+    min-width: 500px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+header {
+    border-bottom: 1px solid rgba(143, 143, 143, 0.463);
+}
+
+header h1 {
+    text-align: center;
+
+}
+
+#form_adicionar {
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(143, 143, 143, 0.463);
+    padding-bottom: 20px;
+}
+
+#form_adicionar p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#adcTarefa {
+    padding: 8px 10px;
+}
+
+#edit_form {
+    padding-left: 20px;
+}
+
+#edit_form.apagar {
+    display: none;
+}
+
+#edit_form p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#editTa {
+    padding: 8px 10px;
+}
+
+button {
+    margin-left: 5px;
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: 0.3rem 0.6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: #102f5e;
+    color: #fff;
+}
+
+button:hover > i {
+    color: #fff;
+}
+
+button i {
+    color: #102f5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+#P_F {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    transition: 0.3s;
+}
+
+.todo h3 {
+    flex: 1;
+    font-size: 0.9rem;
+}
+
+.flex {
+    display: flex;
+}
+
+#buscarInput , #selectFil {
+    padding: 8px 10px;
+}
+
+#selectFil {
+    flex: 1;
+}
+
+#pesquisar , #filtrar {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+#pesquisar {
+    width: 50%;
+}
+
+
+
+#filtrar {
+    border-left:  1px solid rgba(143, 143, 143, 0.463);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pesquisar h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#filtrar h4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#cancelar {
+    margin: 0;
+    margin-top: 8px;
+}
+
+.done {
+    background-color: #102f5e;
+    color: white;
+}
+
+.done h3 {
+    text-decoration: line-through;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
+
+
+
+
